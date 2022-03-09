@@ -7,20 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D586A8CE27D890190089C2EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D586A8CD27D890190089C2EB /* AppDelegate.swift */; };
-		D586A8D027D890190089C2EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D586A8CF27D890190089C2EB /* ContentView.swift */; };
-		D586A8D227D890190089C2EB /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D586A8D127D890190089C2EB /* Experience.rcproject */; };
 		D586A8D427D890200089C2EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D586A8D327D890200089C2EB /* Assets.xcassets */; };
 		D586A8D727D890200089C2EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D586A8D627D890200089C2EB /* Preview Assets.xcassets */; };
+		D586A8E627D895030089C2EB /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = D586A8DD27D895020089C2EB /* Command.swift */; };
+		D586A8E727D895030089C2EB /* ModuleOrigamiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D586A8DE27D895020089C2EB /* ModuleOrigamiModel.swift */; };
+		D586A8E827D895030089C2EB /* StateOrigami.swift in Sources */ = {isa = PBXBuildFile; fileRef = D586A8DF27D895020089C2EB /* StateOrigami.swift */; };
+		D586A8E927D895030089C2EB /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = D586A8E027D895020089C2EB /* Module.swift */; };
+		D586A8EA27D895030089C2EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D586A8E127D895020089C2EB /* ContentView.swift */; };
+		D586A8EB27D895030089C2EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D586A8E227D895020089C2EB /* AppDelegate.swift */; };
+		D586A8EC27D895030089C2EB /* ModuleGrab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D586A8E327D895020089C2EB /* ModuleGrab.swift */; };
+		D586A8ED27D895030089C2EB /* ModuleConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D586A8E427D895030089C2EB /* ModuleConnection.swift */; };
+		D586A8EE27D895030089C2EB /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D586A8E527D895030089C2EB /* Mediator.swift */; };
+		D586A8F327D896B90089C2EB /* frog.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D586A8EF27D896B90089C2EB /* frog.rcproject */; };
+		D586A8F427D896B90089C2EB /* ship.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D586A8F027D896B90089C2EB /* ship.rcproject */; };
+		D586A8F527D896B90089C2EB /* airplane.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D586A8F127D896B90089C2EB /* airplane.rcproject */; };
+		D586A8F627D896B90089C2EB /* swan.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D586A8F227D896B90089C2EB /* swan.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D586A8CA27D890190089C2EB /* Origami_AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Origami_AR.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D586A8CD27D890190089C2EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D586A8CF27D890190089C2EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D586A8D127D890190089C2EB /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		D586A8D327D890200089C2EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D586A8D627D890200089C2EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D586A8DD27D895020089C2EB /* Command.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		D586A8DE27D895020089C2EB /* ModuleOrigamiModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleOrigamiModel.swift; sourceTree = "<group>"; };
+		D586A8DF27D895020089C2EB /* StateOrigami.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateOrigami.swift; sourceTree = "<group>"; };
+		D586A8E027D895020089C2EB /* Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
+		D586A8E127D895020089C2EB /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../ContentView.swift; sourceTree = "<group>"; };
+		D586A8E227D895020089C2EB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		D586A8E327D895020089C2EB /* ModuleGrab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleGrab.swift; sourceTree = "<group>"; };
+		D586A8E427D895030089C2EB /* ModuleConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleConnection.swift; sourceTree = "<group>"; };
+		D586A8E527D895030089C2EB /* Mediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
+		D586A8EF27D896B90089C2EB /* frog.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = frog.rcproject; sourceTree = "<group>"; };
+		D586A8F027D896B90089C2EB /* ship.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = ship.rcproject; sourceTree = "<group>"; };
+		D586A8F127D896B90089C2EB /* airplane.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = airplane.rcproject; sourceTree = "<group>"; };
+		D586A8F227D896B90089C2EB /* swan.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = swan.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +73,19 @@
 		D586A8CC27D890190089C2EB /* Origami_AR */ = {
 			isa = PBXGroup;
 			children = (
-				D586A8CD27D890190089C2EB /* AppDelegate.swift */,
-				D586A8CF27D890190089C2EB /* ContentView.swift */,
-				D586A8D127D890190089C2EB /* Experience.rcproject */,
+				D586A8DD27D895020089C2EB /* Command.swift */,
+				D586A8E527D895030089C2EB /* Mediator.swift */,
+				D586A8E027D895020089C2EB /* Module.swift */,
+				D586A8E427D895030089C2EB /* ModuleConnection.swift */,
+				D586A8E327D895020089C2EB /* ModuleGrab.swift */,
+				D586A8DE27D895020089C2EB /* ModuleOrigamiModel.swift */,
+				D586A8DF27D895020089C2EB /* StateOrigami.swift */,
+				D586A8E227D895020089C2EB /* AppDelegate.swift */,
+				D586A8E127D895020089C2EB /* ContentView.swift */,
+				D586A8F127D896B90089C2EB /* airplane.rcproject */,
+				D586A8EF27D896B90089C2EB /* frog.rcproject */,
+				D586A8F027D896B90089C2EB /* ship.rcproject */,
+				D586A8F227D896B90089C2EB /* swan.rcproject */,
 				D586A8D327D890200089C2EB /* Assets.xcassets */,
 				D586A8D527D890200089C2EB /* Preview Content */,
 			);
@@ -140,9 +170,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D586A8D027D890190089C2EB /* ContentView.swift in Sources */,
-				D586A8CE27D890190089C2EB /* AppDelegate.swift in Sources */,
-				D586A8D227D890190089C2EB /* Experience.rcproject in Sources */,
+				D586A8F327D896B90089C2EB /* frog.rcproject in Sources */,
+				D586A8E727D895030089C2EB /* ModuleOrigamiModel.swift in Sources */,
+				D586A8ED27D895030089C2EB /* ModuleConnection.swift in Sources */,
+				D586A8EA27D895030089C2EB /* ContentView.swift in Sources */,
+				D586A8F527D896B90089C2EB /* airplane.rcproject in Sources */,
+				D586A8EB27D895030089C2EB /* AppDelegate.swift in Sources */,
+				D586A8EE27D895030089C2EB /* Mediator.swift in Sources */,
+				D586A8E927D895030089C2EB /* Module.swift in Sources */,
+				D586A8EC27D895030089C2EB /* ModuleGrab.swift in Sources */,
+				D586A8F627D896B90089C2EB /* swan.rcproject in Sources */,
+				D586A8F427D896B90089C2EB /* ship.rcproject in Sources */,
+				D586A8E827D895030089C2EB /* StateOrigami.swift in Sources */,
+				D586A8E627D895030089C2EB /* Command.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
