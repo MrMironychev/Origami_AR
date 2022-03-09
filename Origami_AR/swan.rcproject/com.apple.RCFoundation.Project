@@ -1,0 +1,1082 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                -9.8000001907348633,
+                0
+              ],
+              "identifier" : "13196C11-E5A6-424A-8CE0-3A13DA4A261F",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "0A63BCAA-A222-4E64-9060-261097179A70" : null,
+                  "73AA202E-1FC1-4A18-B3FA-54650ADABB83" : null,
+                  "Cube" : null
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "Init",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.9510117769241333,
+                  -7.4505801528346183e-09,
+                  -0.30915454030036926,
+                  0,
+                  -0.14403809607028961,
+                  0.88483226299285889,
+                  -0.44308561086654663,
+                  0,
+                  0.273549884557724,
+                  0.46590963006019592,
+                  0.84148591756820679,
+                  0,
+                  0.28712469339370728,
+                  0.43453502655029297,
+                  0.55805850028991699,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        },
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "animationSpeed" : 1,
+                                          "audioGain" : 1,
+                                          "clipDuration" : 0,
+                                          "clipStart" : 0,
+                                          "iterations" : 1,
+                                          "multiplePerformType" : "ignore request",
+                                          "muteAudio" : false,
+                                          "reversed" : false,
+                                          "reverses" : false,
+                                          "target" : [
+
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "startAnimate"
+                                        }
+                                      },
+                                      "identifier" : "2A17364D-42B8-41F3-A250-B4877B2AC2ED",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "EC329EC8-C5E8-4838-8D7A-4355BD6DD212",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.364705890417099,
+                        0.74117648601531982,
+                        0.69019609689712524,
+                        1
+                      ],
+                      "identifier" : "B01CCB37-1E00-4345-B4E8-67BB9F5F86E9",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Behavior",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+
+                                },
+                                "name" : "start"
+                              },
+                              "identifier" : "1A3DBD51-9124-403E-84DF-3CE651CC6DC9",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                }
+              ],
+              "gravity" : [
+                0,
+                -9.8000001907348633,
+                0
+              ],
+              "identifier" : "73EC7334-D55E-4098-9C6D-FB4032E50C71",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "0DA808B9-92BC-4E0E-972B-D473845FAED6" : null,
+                  "36ADA856-3BA2-4852-B794-D8E4C278FFB8" : null,
+                  "79DAE9AA-D0A6-401A-8CBD-556426C4009B" : null,
+                  "2057B1C8-BC81-419D-A88C-960B05884722" : null,
+                  "C0FA24A3-ED0E-4409-B943-954213E54C12" : null,
+                  "C9FCC373-3304-4E4F-B690-1ACCB7C3D89B" : null,
+                  "CF8A371E-7425-486E-9E6B-9488376853EB" : null,
+                  "Cube" : null,
+                  "D8CE64A1-4A8E-4BF6-88AA-C56D80D1EC96" : null,
+                  "D328936A-8FC8-4A11-AE82-FBC0A6FFB589" : null,
+                  "E18904CF-3BB4-4A9F-B42B-D3E5E0CF79BC" : null,
+                  "EDC392DA-6157-45CA-8994-21053F163B39" : null
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "Step1",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.95101171731948853,
+                  1.4901170075631853e-08,
+                  -0.30915459990501404,
+                  0,
+                  -0.25248894095420837,
+                  0.57705175876617432,
+                  -0.77669847011566162,
+                  0,
+                  0.17839837074279785,
+                  0.8167075514793396,
+                  0.54878300428390503,
+                  0,
+                  0.41009977459907532,
+                  1.0261152982711792,
+                  0.55414104461669922,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        },
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "animationSpeed" : 1,
+                                          "audioGain" : 1,
+                                          "clipDuration" : 0,
+                                          "clipStart" : 0,
+                                          "iterations" : 1,
+                                          "multiplePerformType" : "ignore request",
+                                          "muteAudio" : false,
+                                          "reversed" : false,
+                                          "reverses" : false,
+                                          "target" : [
+
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "startAnimate"
+                                        }
+                                      },
+                                      "identifier" : "B87F08A6-268B-487E-B738-79F06830ACEE",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "13ED452A-2EE2-49E1-8225-76DE870B4872",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.364705890417099,
+                        0.74117648601531982,
+                        0.69019609689712524,
+                        1
+                      ],
+                      "identifier" : "28CA3A1F-CA29-4EEF-8F91-348E2D2F0560",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Behavior",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+
+                                },
+                                "name" : "start"
+                              },
+                              "identifier" : "BCCCE4C3-48CA-4B11-B8F6-75E9E6C748E8",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                }
+              ],
+              "gravity" : [
+                0,
+                -9.8000001907348633,
+                0
+              ],
+              "identifier" : "ABEB3796-48EB-40E0-9677-F0E59C5CDDDA",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "6C765229-319F-41B2-BD99-3A96A672FDD9" : null,
+                  "8A6318A6-2BBA-456D-B94F-6529E062BFAB" : null,
+                  "C878B1B2-C9C1-43A1-8DC7-AAA519780019" : null,
+                  "Cube" : null,
+                  "E8F6436A-DC73-4F71-8C63-CC51281D0ADF" : null
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "Step2",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.99999922513961792,
+                  2.6077033865590238e-08,
+                  0.0012281237868592143,
+                  0,
+                  0.00077888439409434795,
+                  0.77316290140151978,
+                  -0.63420689105987549,
+                  0,
+                  -0.00094950525090098381,
+                  0.63420748710632324,
+                  0.77316224575042725,
+                  0,
+                  0.027103640139102936,
+                  0.53277695178985596,
+                  0.53010624647140503,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        },
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "animationSpeed" : 1,
+                                          "audioGain" : 1,
+                                          "clipDuration" : 0,
+                                          "clipStart" : 0,
+                                          "iterations" : 1,
+                                          "multiplePerformType" : "ignore request",
+                                          "muteAudio" : false,
+                                          "reversed" : false,
+                                          "reverses" : false,
+                                          "target" : [
+
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "startAnimate"
+                                        }
+                                      },
+                                      "identifier" : "8C07A89D-986B-403E-BD5A-511EC1D432D6",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "DF7DC56A-F2B8-4D0D-94C4-E17681DEBA0D",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.364705890417099,
+                        0.74117648601531982,
+                        0.69019609689712524,
+                        1
+                      ],
+                      "identifier" : "A278881F-0C5E-4D5F-87EE-5A62E75E0C8F",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Behavior",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+
+                                },
+                                "name" : "start"
+                              },
+                              "identifier" : "C29C4213-D5C1-4398-B389-C826A0CF45E4",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                }
+              ],
+              "gravity" : [
+                0,
+                -9.8000001907348633,
+                0
+              ],
+              "identifier" : "CDD3312E-CDBA-4266-A641-9D86F62F3249",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "04F6916D-836A-48D1-B50B-770969BF819F" : null,
+                  "B99E0F6A-7A30-4689-AE21-FCEFFBAF6D7A" : null,
+                  "CA414C9E-C56D-4184-865F-E80A59EBE2BF" : null,
+                  "Cube" : null,
+                  "FDCE3A0D-8139-4617-8D94-5164C06D69ED" : null
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "Step3",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.96731448173522949,
+                  8.1956386566162109e-08,
+                  -0.25357964634895325,
+                  0,
+                  -0.11800640076398849,
+                  0.8851204514503479,
+                  -0.45015135407447815,
+                  0,
+                  0.22444851696491241,
+                  0.46536201238632202,
+                  0.85618990659713745,
+                  0,
+                  0.244660884141922,
+                  0.30824354290962219,
+                  0.63266843557357788,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        },
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "animationSpeed" : 1,
+                                          "audioGain" : 1,
+                                          "clipDuration" : 0,
+                                          "clipStart" : 0,
+                                          "iterations" : 1,
+                                          "multiplePerformType" : "ignore request",
+                                          "muteAudio" : false,
+                                          "reversed" : false,
+                                          "reverses" : false,
+                                          "target" : [
+
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "startAnimate"
+                                        }
+                                      },
+                                      "identifier" : "C1220D0A-4803-490D-9579-E25AB1CED120",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "BDDD2DD3-F41A-4AB7-B63D-C2B15C0DC2DA",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.364705890417099,
+                        0.74117648601531982,
+                        0.69019609689712524,
+                        1
+                      ],
+                      "identifier" : "5881F1B4-B0C7-494C-ACD3-BD04EF83D60F",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Behavior",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+
+                                },
+                                "name" : "start"
+                              },
+                              "identifier" : "9849C5C9-346D-4EF9-B597-6EC2F5E51E0A",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                }
+              ],
+              "gravity" : [
+                0,
+                -9.8000001907348633,
+                0
+              ],
+              "identifier" : "1A1B3339-EA13-4A8D-A6AC-A9A80E8FF76D",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "69AFD7D1-AF9B-4B05-B380-33FAC3DF526E" : null,
+                  "71BDEB99-BB28-4B71-A251-A1C1BBD941FD" : null,
+                  "2705A15F-263F-4C88-8018-685F1A02A60B" : null,
+                  "17468CD1-0104-45EE-9D31-F8FE7FA48427" : null,
+                  "Cube" : null
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "Step4",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.93487894535064697,
+                  1.0710209608078003e-07,
+                  -0.35496661067008972,
+                  0,
+                  -0.15349902212619781,
+                  0.90166652202606201,
+                  -0.40427142381668091,
+                  0,
+                  0.32006150484085083,
+                  0.43243193626403809,
+                  0.84294909238815308,
+                  0,
+                  0.33488333225250244,
+                  0.32579228281974792,
+                  0.57433491945266724,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        },
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "animationSpeed" : 1,
+                                          "audioGain" : 1,
+                                          "clipDuration" : 0,
+                                          "clipStart" : 0,
+                                          "iterations" : 1,
+                                          "multiplePerformType" : "ignore request",
+                                          "muteAudio" : false,
+                                          "reversed" : false,
+                                          "reverses" : false,
+                                          "target" : [
+
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "startAnimate"
+                                        }
+                                      },
+                                      "identifier" : "9CC5208B-0207-4FF6-980F-C137C165188E",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "D2A15765-B264-42D5-A6C8-EA9F94342219",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.364705890417099,
+                        0.74117648601531982,
+                        0.69019609689712524,
+                        1
+                      ],
+                      "identifier" : "A7B8E9FB-4E36-454E-80F6-FEED67271AF6",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Behavior",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+
+                                },
+                                "name" : "start"
+                              },
+                              "identifier" : "49C0F51F-3A48-4B96-9E1C-0F699EFFC5AB",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                }
+              ],
+              "gravity" : [
+                0,
+                -9.8000001907348633,
+                0
+              ],
+              "identifier" : "292611D3-11D8-4FBF-B3F8-060674099217",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "4EE9C07C-E2DC-41EA-9D85-2135F31A6FB8" : null,
+                  "B6EA9BD9-A7DB-4808-BFFA-2ACDB7831A90" : null,
+                  "C7225DEE-3F16-49CA-8EEC-0A0337867F53" : null,
+                  "Cube" : null,
+                  "DC2D57E8-6A91-41DD-8EEE-63175E6E5B05" : null
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "Step5",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.99998873472213745,
+                  1.2665985593685036e-07,
+                  0.0047352048568427563,
+                  0,
+                  0.00221830396912992,
+                  0.88346493244171143,
+                  -0.46849170327186584,
+                  0,
+                  -0.0041834465228021145,
+                  0.46849694848060608,
+                  0.88345515727996826,
+                  0,
+                  0.014340870082378387,
+                  0.33590573072433472,
+                  0.65032613277435303,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        },
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "animationSpeed" : 1,
+                                          "audioGain" : 1,
+                                          "clipDuration" : 0,
+                                          "clipStart" : 0,
+                                          "iterations" : 1,
+                                          "multiplePerformType" : "ignore request",
+                                          "muteAudio" : false,
+                                          "reversed" : false,
+                                          "reverses" : false,
+                                          "target" : [
+
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "startAnimate"
+                                        }
+                                      },
+                                      "identifier" : "B85C1A51-3E9C-4B60-B455-478F98A985EE",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "A3D87177-EE3D-42D1-BAA0-DD255B3D81BF",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.364705890417099,
+                        0.74117648601531982,
+                        0.69019609689712524,
+                        1
+                      ],
+                      "identifier" : "4530C6FD-0DF0-4895-99B0-0292BF7C68B1",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Behavior",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+
+                                },
+                                "name" : "start"
+                              },
+                              "identifier" : "FD829D57-2E59-4B81-9BC9-457AE8072663",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                }
+              ],
+              "gravity" : [
+                0,
+                -9.8000001907348633,
+                0
+              ],
+              "identifier" : "108AF5D8-5F4C-4854-886C-A69BA18B6B61",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "2CD22569-F260-4E74-A6B6-76488BA91589" : null,
+                  "ACD2ABC4-391C-4244-9CBE-5C5761549E63" : null,
+                  "AD25CCCA-945A-4658-99FE-D88F475DDD90" : null,
+                  "BD1A4A63-6A41-4927-9E51-D64999311F4D" : null,
+                  "Cube" : null
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "Step6",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.96731454133987427,
+                  1.3411043653377419e-07,
+                  -0.25357931852340698,
+                  0,
+                  -0.11800622195005417,
+                  0.88512057065963745,
+                  -0.45015108585357666,
+                  0,
+                  0.22444823384284973,
+                  0.46536168456077576,
+                  0.85619008541107178,
+                  0,
+                  0.23463654518127441,
+                  0.32488879561424255,
+                  0.62622499465942383,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}
